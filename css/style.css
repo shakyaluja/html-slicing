@@ -145,8 +145,8 @@ display: flex;
 
 
 .box{
-    background-color: aliceblue;
-    padding: 20px;
+    /* background-color: aliceblue;
+    padding: 22px; */
     border:none;
     height:190px;
     text-align: center;
