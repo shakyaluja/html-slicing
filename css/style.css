@@ -1,0 +1,190 @@
+/* reset css */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+/* helper */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+
+/* grid layout */
+
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.col-1{
+    flex: 100%;
+}
+
+.col-2{
+    flex: 50%;
+}
+
+.col-3{
+    flex:33%;
+}
+
+.col-7{
+    flex: 67%;
+}
+
+/* main css */
+
+.header{
+    background-color: rgb(217, 201, 201);
+    padding:10px 20px;
+}
+
+.header .navbar{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navbar .logo a {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+  .header .navbar .navbar-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:80px;
+ }
+    
+
+.header .navbar button{
+    padding: 10px 20px;
+    background-color:blue;
+    color: white;   
+}
+
+.hero-section{
+    min-height: 500px;
+    font-weight:bold;
+    background-image: url(/first-template/image/gd.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+
+.hero-section .title h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    padding:80px;
+}
+  
+
+.hero-section .title p{
+    margin:0 auto;
+    text-align: center;
+}
+
+.content{
+    padding : 10px 20px;
+    line-height:1.7;
+}
+
+.main{
+    margin :0 auto;
+    text-align: center;
+    padding: 20px;
+    max-width: 700px;
+}
+
+.main .main-card-1{
+    background-image: url(/first-template/image/gd.jpg);
+
+}
+
+.main .main-card-2{
+    background-image: url(/first-template/image/lo.jpg);
+}
+
+.main .main-card-3{
+    background-image: url(/first-template/image/go.jpg);
+}
+
+.main .col-3{   
+    padding: 40px 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .col-3 h2{
+    padding-bottom: 20px;
+}
+
+
+.box{
+    border:none;
+    height:190px;
+    text-align: center;
+    margin:10px;
+    padding: 20px;
+}
+
+.services{
+    text-align: center;
+    font-size:25px;
+    margin-top:100px;
+    background-color: darkblue;
+    padding: 40px 20px;
+    color: white;
+}
+
+.services  .section-2 button{
+    padding: 10px 20px;  
+}
+
+.hero-section-2{
+    margin-top: 120px;
+}
+
+.hero-section-2 .head{
+}
+.hero-section-2 .column{
+    width:700px;
+    margin:0 auto;
+}
+
+.services-2{
+    text-align: center;
+    font-size:25px;
+    margin-top:100px;
+    background-color:grey;
+    padding: 40px 20px;
+    color: white;
+}
+
+ .p{
+    font-size: 14;
+}
